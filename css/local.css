@@ -1,0 +1,96 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+}
+p
+{
+    margin:0 20px;
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu-r-webfont.ttf);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: ubuntu;
+}
+.header {
+    background:rgba(0,0,0,0.8);
+    height:40px;
+    color:#efefef;
+    line-height:40px
+}
+#logo {
+    background:rgba(255,0,0,0.9);
+    height:55px;
+    margin-left:20px;
+    width:35px;
+    padding-left:10px;
+    font-size:18px;
+    font-style: italic;
+    position:relative;
+    float:left;
+    z-index:2;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+}
+.title
+{
+    height:40px;
+    line-height:40px;
+    margin-left:20px;
+    display:block;
+    color: #efefef;
+    float:left;
+}
+.nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    height:40px;
+    float:right;
+}
+.nav li
+{
+    background:#353D40;
+    float:left;
+    margin:0;
+    margin-top:8px;
+    height:12px;
+    font-size:12px;
+    line-height: 12px;
+    margin-right:20px;
+    padding:7px 10px;
+}
+#main
+{
+    background:#77C0C0;
+    color:#fff;
+    text-align: center;
+}
+#main h1
+{
+    padding:60px;
+    font-size:60px;
+    line-height:70px;
+}
+#blog
+{
+    background:#fff;
+}
+#blog h2
+{
+    padding:0px 20px;
+}
+#blog img
+{
+    display:block;
+    float:right;
+    margin:0 40px 20px 20px;
+}
+.line
+{
+    background-image:url('/img/line-dotted.gif');
+    height:1px;
+    width:100%;
+    display:block;
+}
